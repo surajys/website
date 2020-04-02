@@ -1,0 +1,7 @@
+- name: Create Folder
+  file: 
+    path: /root/testing
+    owner: root 
+    group: root 
+    mode: 0755 
+    state: directory
